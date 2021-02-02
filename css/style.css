@@ -2,12 +2,18 @@ h1 {
     padding: 40px 0 60px;
 }
 
+h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
 h3 {
     margin: 15px 0;
 }
 
 p {
     margin-bottom: 35px;
+    line-height: 20px;
 }
 
 .text-center {
