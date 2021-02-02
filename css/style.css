@@ -4,7 +4,7 @@ h1 {
 
 h2 {
     font-size: 30px;
-    margin-bottom: 25px;
+    margin: 25px 0 30px;
 }
 
 h3 {
@@ -17,7 +17,10 @@ p {
 }
 
 hr {
-    
+    margin-bottom: 40px;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: #2804cc;
 }
 
 .text-center {
@@ -25,7 +28,7 @@ hr {
 }
 
 .container {
-    background-color: #defffd;
+    background-color: #9bbcee;
 }
 
 .container img {
@@ -34,5 +37,9 @@ hr {
 }
 
 .image-background {
-
+    margin: 0 auto;
+    width: 220px;
+    height: 220px;
+    background-color: #2804cc;
+    border-radius: 100%;
 }
