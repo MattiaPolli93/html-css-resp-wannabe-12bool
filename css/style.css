@@ -16,10 +16,23 @@ p {
     line-height: 20px;
 }
 
+hr {
+    
+}
+
 .text-center {
     text-align: center;
 }
 
+.container {
+    background-color: #defffd;
+}
+
 .container img {
     height: 180px;
+    margin: 15px 0;
+}
+
+.image-background {
+
 }
