@@ -10,13 +10,13 @@
     max-width: 1170px;
     margin: 0 auto;
     height: 100%;
+    position: relative;
 }
 
 .container::after {
     content: "";
     display: block;
     clear: both;
-    position: relative;
 }
 
 /* Columns */
