@@ -1,5 +1,6 @@
 h1 {
-    padding: 40px 0 60px;
+    padding: 25px 0 60px;
+    font-size: 40px;
 }
 
 h2 {
@@ -23,12 +24,12 @@ hr {
     border-color: #2804cc;
 }
 
-.text-center {
-    text-align: center;
+main {
+    background-color: #a6c0e7;
 }
 
-.container {
-    background-color: #a6c0e7;
+.text-center {
+    text-align: center;
 }
 
 .container img {
@@ -38,8 +39,22 @@ hr {
 
 .image-background {
     margin: 0 auto;
-    width: 220px;
-    height: 220px;
+    width: 225px;
+    height: 225px;
     background-color: #2804cc;
     border-radius: 100%;
+}
+
+/* Responsive - tablet/desktop */
+@media screen and (min-width: 768px) {
+    .container p {
+        padding: 0 25px;
+    }
+}
+
+/* Responsive - smartphone */
+@media screen and (max-width: 767px) {
+    .container p {
+        padding: 0 25px;
+    }
 }
